@@ -5,7 +5,7 @@ function updateDriverWithKeyAndValue (object, key, value) {
   return Object.assign({}, object, key, value);
 }
  const newAddition = {
-   name: "kyle";
+   key: "kyle";
  }
 
 const newDriver = updateDriverWithKeyAndValue(driver, newAddition);
