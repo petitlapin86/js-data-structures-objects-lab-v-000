@@ -10,7 +10,7 @@ driver[key] = value;
   return driver
 }
 
-function deleteFromDriverByKey (driver, value, key) {
+function destructivelyDeleteFromDriverByKey (driver, value, key) {
   delete driver.key;
   return driver
 }
